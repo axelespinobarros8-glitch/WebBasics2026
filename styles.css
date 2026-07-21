@@ -1,0 +1,41 @@
+body{
+    background-color: blue;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+h1{
+    color: blue;
+    text-align: center;
+    font-size: larger;
+    border: 2px solid;
+}
+
+h2{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    color: aliceblue;
+}
+
+li{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: white;
+    margin: 20px;
+}
+
+p{
+    color: whitesmoke;
+    margin: 10px;
+    font-size: larger;
+
+}
+
+div{
+    color: white;
+    border: 3px solid;
+    margin: 10px;
+
+}
+
+image{
+    border: radius 50px;
+}
