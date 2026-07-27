@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> JavaScript Demo</title>
+        <style>
+         #myButton{
+            border: 2px solid blue;
+            border-radius: 100px;
+            padding:5px;
+            background-color: rgb(173, 188, 45);
+            color: rgb(0, 255, 136);
+        }
+        #lightButton{
+            border: 2px solid blue;
+            border-radius: 100px;
+            padding:5px;
+            background-color: rgb(123, 22, 22);
+            color: rgb(153, 0, 255);
+        }
+        #darkButton{
+            border: 2px solid blue;
+            border-radius: 100px;
+            padding:5px;
+            background-color: rgb(156, 52, 52);
+            color: rgb(0, 255, 242);
+        }   
+        </style>
+    </head>    
+    <body>
+            <h1> JavaScript Demo</h1>
+            <!-- In this file, we go through some of the more common 
+            JavaScript features that we observed in our Hackathon-->
+        
+            <!-- Here is an example of an innerHTML button. IT changes text-->
+            <p id="Demo">This is an example of a paragraph changing button.</p>
+            <button id="myButton" onclick="myFunction()"><b>Click Me!</b></button>
+            <script>
+            function myFunction() {
+                document.getElementById("Demo").innerHTML="Paragraph Changed!"
+            }
+            
+            </script>
+            <!-- Here is an example of Light/Dark Mode-->
+            <button id="lightButton" onclick="lightMode()"> Light Mode</button>
+            <button id="darkButton" onclick="darkMode()"> Dark Mode</button>
+
+            <script>
+                /* This sets the background color to White*/
+                function lightMode(){
+                document.body.style.backgroundColor="#FFFFFF";
+                document.body.style.color="#000000";
+            }
+                /*This sets the background to Black*/
+                function darkMode(){
+                  document.body.style.backgroundColor="#000000";  
+                  document.body.style.color="#FFFFFF";
+                  document.button.style.borderColor="FFFFFF";
+                }
+            </script>
+        
+    </body>
+</html>
