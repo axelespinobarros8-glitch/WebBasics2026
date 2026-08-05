@@ -1,0 +1,112 @@
+body{
+background-color:#4CB817;
+text-align: center;
+}
+h1{
+color: darkcyan;
+font-family: 'Courier New', Courier, monospace;
+}
+.div{
+color: white;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+padding: 30px;
+max-width: 1000px;
+border: 3px solid;
+margin: 40px auto;
+background-color: darkblue;
+}
+
+.div > h1 {
+  text-align: center;
+  margin-top: 0;
+  margin-bottom: 30px;
+}
+h2{
+color:gold;
+font-family: Arial, Helvetica, sans-serif;        
+}
+h3{
+color: bisque;
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+h4{
+ color: red;
+ font-family: Georgia, 'Times New Roman', Times, serif;       
+}
+li{
+color: blanchedalmond; 
+font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;       
+}
+img{
+border-radius: 20px; 
+border: 10px dashed;       
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333333;
+}
+
+ul li {
+  float: left;
+}
+
+ul li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+ul li a:hover {
+  background-color: #111111;
+}
+
+.heading{
+    text-align: center;
+    
+}
+
+
+
+.side{
+    display: flex;
+    align-items: stretch;
+    gap: 40px;
+
+}
+
+.text, 
+.image{
+  width: 50%;
+  height: 350px;
+  box-sizing: border-box;
+  border: 3px solid white;
+  border-radius: 10px;
+}
+
+.text{
+    padding: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+image{
+    overflow: hidden;
+}
+
+.image img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+
+
+    
